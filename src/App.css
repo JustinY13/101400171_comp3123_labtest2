@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: rgb(0, 0, 0);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,6 +24,21 @@
   color: white;
 }
 
+
+.nav-button {
+  background-color: blue;
+  color: rgb(184, 138, 37);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.backgroundHeader {
+  background-color: rgb(9, 255, 247);
+  height: 100vh;
+}
 .App-link {
   color: #61dafb;
 }
